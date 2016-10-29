@@ -1,0 +1,104 @@
+/*公共*/
+.fl{  float: left;  }
+.fr{  float: right;  }
+.com_width{  width: 1000px;margin: 0 auto;  }
+a{  text-decoration: none;  color:#666  }
+text,input{border: none;padding: 0;}
+h3,ul,dl,dt,dd,p{margin: 0;padding: 0;}
+ul,li{list-style: none;}
+a:hover{color: red;}
+.hide{display: none;}
+.show{ display: block;}
+.fix:after{content: '';display: table;clear: both;}
+.fix{*zoom:1}/*清除浮动带来的效果*/
+/*top_bar*/
+.top_bar{ height: 31px;background: #f7f7f7;line-height: 31px;color: #666;font-size: 12px;  }
+.top_bar .collect{  font-weight: bold; background: url("../images/icon/collect.png") left center no-repeat;padding-left: 17px; }
+.top_bar .right_area{margin-right: 21px;}
+/*logo_bar*/
+.logo_bar{height: 85px;background: #1d7ad9}
+.logo_bar .logo{padding-left: 39px;padding-top: 13px;}
+.logo_bar .search_box{margin-top: 23px;margin-left: 186px;}
+.logo_bar .search_txt{width: 350px;height: 35px;padding: 0 5px;}
+.logo_bar .search_btn{width: 70px;height: 35px;background: #ff8c00;color: #fff;cursor: pointer;font:14px/35px "微软雅黑";}
+.logo_bar .search_cart{font:14px/35px "微软雅黑";color: #fff;line-height: 35px;background-color:#ff8800;margin-top: 23px;margin-right: 59px;}
+.logo_bar .shop_text{width: 87px;height: 35px;border-right: 1px solid #e27a00;background: url("../images/icon/cart.png") 10px center no-repeat;text-indent: 40px;}
+.logo_bar .shop_num{width: 27px;height: 35px;border-left: 1px solid #ff9c01;background: url("../images/icon/triangel.png") 33px center no-repeat;text-align: right;padding-right: 29px;}
+/*导航栏*/
+.nav_box{height: 35px;background: #1369c0;font-family: "微软雅黑";color: #fff;}
+.nav_box .shop_class{height:35px;width: 189px;background: url("../images/icon/downa.png") 156px center no-repeat;position: relative;}
+.nav_box h3{font-size: 16px;text-align: center;line-height: 35px;font-weight: bolder;}
+.nav_box .nav{height: 35px;}
+.nav_box li{float: left;  }
+.nav li a{height:35px;display:inline-block;font:14px/35px "微软雅黑";padding: 0 30px;color: #fff;}
+.nav .active{background: #4593fd;}
+/*商品列表*/
+.shop_list  a:hover{color: yellow;}
+.shop_list{background: #4593fd;position: absolute;left: 0;top: 35px;width: 100%;height: 326px;}
+.shop_list a{font-size: 12px;color: #fff;font-family: "宋体";}
+.shop_list .b{font-size: 14px;font-family: "微软雅黑";}
+.shop_list .shop_item{padding: 12px 10px;border-top: 1px solid #5aa1fe;border-bottom: 1px solid #3487f2;}
+.shop_list .link{font-family: "新宋体" ;display:inline-block;width: 48px;height: 20px;background: url("../images/link.png") left center no-repeat;text-decoration: underline;text-align: center;line-height: 20px;}
+.shop_list .sp{border-bottom: none;}
+.shop_list dt{height: 21px;background: url("../images/icon/righta.png") right center no-repeat;}
+/*商品详细列表*/
+.shop_detail {width: 568px;border: 1px solid #ddd;position: absolute;left: 189px;top: 35px;font-family: "宋体";font-size: 12px;}
+.shop_detail dt{color: #4b88da;font-weight: bold; height: 24px;line-height: 24px;}
+.shop_detail dd{padding-left: 90px;margin-top: -24px;line-height: 24px;}
+.shop_detail dd a{margin-right: 1em;}
+.shop_index{padding:5px 0;border-bottom: 1px solid #e5e5e5;}
+.shop_detail .content{padding: 2px 10px;}
+/*被选中的商品类*/
+.shop_list .active{background: #fff;border-left: 1px solid #4593fd;}
+.shop_list .active a{color: #000;}
+.shop_list .active .link{color: #fff;text-decoration: none;}
+/*分类下的大链接*/
+.shop_link{padding: 15px 0;}
+.shop_link a{height: 26px;line-height: 26px;color: #fff;background: #2785e6;display: inline-block;padding: 0 12px 0 8px;margin-right: 10px;}
+.shop_link span{height: 8px;width: 5px;display: inline-block;background: url("../images/icon/link.png") left center no-repeat;margin-left: 8px;}
+/*图片展示区*/
+.ad_bar{width: 811px;height: 326px;float:right;position: relative;overflow: hidden;}
+.ad_bar .ad_pic{width: 4866px;height: 326px;position: absolute;left: 0;top: 0;}
+.ad_bar li{float: left;}
+.ad_bar img{width: 811px;height: 326px;display: block;}
+.ad .move_tag{position: absolute;left: 0;bottom: 15px;width: 100%;text-align: center;}
+.move_tag a{width: 20px;height: 5px;background: #fff;display: inline-block;margin: 0 1px;}
+.move_tag .active{background: #f70;}
+/*商品标题*/
+.good_tit{height: 75px;line-height: 75px;}
+.good_tit .icon{width: 44px;height: 45px;background: url("../images/icon/icon.png") left center no-repeat;float: left;margin: 15px 0;}
+.good_tit h3{font-size: 24px;float: left;font-family: "微软雅黑";font-weight: normal;margin-left:15px;}
+.good_tit .more{font-family: "新宋体";font-size: 12px;float: right;margin-right: 24px;}
+.good_tit a:hover{text-decoration: underline;}
+/*商品展示*/
+.goods .fl{width: 190px;}
+.goods .fr{width: 809px;border: 1px solid #e5e5e5;border-bottom: 3px solid #ff7201;height: 396px;border-left: none;}
+.goods .fl{width: 190px;height: 400px;position: relative;overflow: hidden;}
+.goods .fl .ad_pic{width: 1622px;height: 400px;position: absolute;left: 0;top: 0;}
+.goods .fl li{float: left;}
+.goods .fl img{width: 190px;height: 400px;display: block;}
+.goods .move_tag{position: absolute;left: 0;bottom: 15px;width: 100%;text-align: center;}
+.move_tag a{width: 20px;height: 5px;background: #fff;display: inline-block;margin: 0 1px;}
+.move_tag .active{background: #f70;}
+/*商品展示右边*/
+.goods .item{width: 202px;border-right: #e5e5e5 solid 1px;height: 279px;border-bottom: #e5e5e5 solid 1px;text-align: center;font-family: "微软雅黑";float: left;}
+.phone{height: 221px;}
+.phone img{width: 133px;height: 151px;padding-top: 45px;}
+.item h3{font-size: 16px;font-weight: bold;}
+.item p{font-size: 14px;color: #ff7300;line-height: 24px;}
+.top, .bottom{margin-right: -3px;}
+.goods .fr{overflow: hidden;}
+/*商品展示右下侧*/
+.bottom .itemdown{width: 202px;height: 116px;border-right: 1px solid #e5e5e5;float: left;}
+.bottom .stuff{width: 104px;height: 116px;float: left;text-align: center;font-size: 0;line-height: 116px;}
+.bottom .stuff a{height: 100%;display: inline-block;}
+.bottom img{width: 80px;height: 62px;vertical-align: middle;}
+.bottom .textdown{width: 90px;height: 50px;margin-top: 32px;float: left;}
+.bottom p{font-size: 12px;font-family: "新宋体";line-height: 18px;}
+.bottom h3{font-family: "微软雅黑";font-size: 16px;font-weight: normal;line-height: 24px;}
+/*底部网站说明*/
+.footer{height: 173px;background: #d4d4d4;margin-top: 40px;padding-top: 50px;}
+.footer p{font:12px/24px "新宋体";text-align: center;}
+.footer a{color: #000;}
+.footer a:hover{color: #ff7201;}
+.footer div{text-align: center;margin-top: 30px;}
